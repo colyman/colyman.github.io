@@ -4,8 +4,8 @@ title: "BJMM Algorithm"
 date: 2026-03-24
 key: BJMM-Algorithm-2026
 lang: zh
-hidden: true
 tags: [Code-Based-Cryptography, Information-Set-Decoding, ISD, McEliece, BJMM, 2012]
+bilingual: true
 mathjax: true
 ---
 
@@ -13,17 +13,9 @@ mathjax: true
 
 BJMM 算法（Becker-Joux-May-Meurer，Eurocrypt 2012）将随机线性码的 ISD 复杂度从 $2^{0.05364n}$（MMT）降至 $2^{0.04934n}$，是有史以来首个将复杂度指数压至 $0.05n$ 以下的 ISD 算法。其核心思想是**允许索引集合重叠**（$|I_1 \cap I_2| = \varepsilon$），从而利用 $\mathbf{F}_2$ 域中 $1+1=0$ 的性质同时拆分 0-位和 1-位，显著增加每个解的表示数量。
 
-**关键词**: 信息集解码 · 表示技术 · 重叠集合 · $1+1=0$ · 三层计算树
+<!-- more -->
 
-## References
-
-- [Becker, Joux, May, Meurer — Eurocrypt 2012](https://eprint.iacr.org/2012/026)
-- [May, Meurer, Thomae — Asiacrypt 2011 (MMT)](https://eprint.iacr.org/2011/605)
-- [Stern — Coding Theory 1989](https://doi.org/10.1007/3-540-51280-8_14)
-
----
-
-## 1. 背景：信息集解码（ISD）
+## 1. Background: Information Set Decoding (ISD)
 
 设 $C$ 为随机二元线性 $[n, k, d]$ 码，校验矩阵 $H \in \mathbf{F}_2^{(n-k)\times n}$。给定综合征 $s = He$，错误向量 $e \in \mathbf{F}_2^n$ 权重 $\omega = \lfloor (d-1)/2 \rfloor$（半距离解码），**综合征解码问题**要求从 $s$ 恢复 $e$。该问题是 McEliece 公钥密码系统安全性的核心假设。
 
