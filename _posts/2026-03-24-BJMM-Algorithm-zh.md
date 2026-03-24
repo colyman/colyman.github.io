@@ -5,7 +5,6 @@ date: 2026-03-24
 key: BJMM-Algorithm-2026
 lang: zh
 tags: [Code-Based-Cryptography, Information-Set-Decoding, ISD, McEliece, BJMM, 2012]
-bilingual: true
 mathjax: true
 ---
 
