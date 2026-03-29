@@ -1,11 +1,8 @@
 ---
-layout: article
-title: "Information Set Decoding: A Comprehensive Survey and Frontiers (1962–2026)"
+title: "A Comprehensive Survey of ISD Algorithms: 60 Years of Evolution (1962–2026)"
 date: 2026-03-28
-key: ISD-Algorithms-Comprehensive-Survey-1962-2026-en
-lang: en
-tags: [Code-Based-Cryptography, Information-Set-Decoding, McEliece, Post-Quantum-Cryptography, Survey]
-hidden: true
+tags: [Code-Based-Cryptography, McEliece, ISD, Post-Quantum-Cryptography, Wagner-Algorithm]
+key: isd-algorithms-survey
 ---
 
 ## tl;dr

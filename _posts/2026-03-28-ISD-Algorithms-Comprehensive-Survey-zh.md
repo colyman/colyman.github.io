@@ -1,11 +1,8 @@
 ---
-layout: article
-title: "ISD 算法全景综述与前沿进展（1962–2026）"
+title: "信息集解码（ISD）算法六十年：从 Prange 到 Esser-Santini 的演进"
 date: 2026-03-28
-key: ISD-Algorithms-Comprehensive-Survey-1962-2026
-lang: zh
-tags: [Code-Based-Cryptography, Information-Set-Decoding, McEliece, Post-Quantum-Cryptography, Survey]
-hidden: true
+tags: [Code-Based-Cryptography, McEliece, ISD, Post-Quantum-Cryptography, Wagner-Algorithm]
+key: isd-algorithms-survey
 ---
 
 ## tl;dr
